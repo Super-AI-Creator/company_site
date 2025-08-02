@@ -1,74 +1,70 @@
-# Portfolio Template
+# Getting Started with Create React App
 
-A modern, responsive portfolio website template that's easy to customize and maintain.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## How to Customize
+## Available Scripts
 
-1. **Basic Configuration**
-   - Open `js/config.js`
-   - Update the configuration object with your content:
-     - SEO settings (title, description, meta tags)
-     - Header content (logo, menu items)
-     - Hero section content
-     - Vision & Mission statements
-     - About section content
+In the project directory, you can run:
 
-2. **Images**
-   - Replace the following images in `assets/img/`:
-     - `logo.png` - Your website logo
-     - `favicon.png` - Browser tab icon
-     - `apple-touch-icon.png` - iOS home screen icon
-     - `hero-bg.jpg` - Hero section background
-     - `about.jpg` - About section image
-     - `opengraph.png` - Social media preview image
+### `npm start`
 
-3. **Colors and Styling**
-   - Main styles are in `assets/css/main.css`
-   - Bootstrap classes are used for layout and components
-   - Custom CSS variables can be modified in the `:root` selector
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-4. **Navigation**
-   - Menu items can be modified in the `config.js` file
-   - Each item needs:
-     - `text`: Display text
-     - `link`: Target section ID or URL
-     - `active`: Boolean for active state
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-5. **Call-to-Action Buttons**
-   - Update CTA button text and links in `config.js`
-   - Both header and hero section buttons can be customized
+### `npm test`
 
-## File Structure
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-```
-portfolio-template/
-├── assets/
-│   ├── css/
-│   ├── img/
-│   ├── js/
-│   └── vendor/
-├── js/
-│   ├── config.js        # Content configuration
-│   └── content-loader.js # Dynamic content loading
-└── index.html           # Main HTML template
-```
+### `npm run build`
 
-## Dependencies
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- Bootstrap 5.3.3
-- AOS (Animate On Scroll)
-- GLightbox
-- Swiper
-- Font families: Roboto, Raleway, Inter
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Browser Support
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- Opera (latest)
+### `npm run eject`
 
-## License
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-This template is licensed under the MIT License - see the LICENSE file for details.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
